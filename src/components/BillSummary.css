@@ -1,0 +1,122 @@
+.billsummary{
+    top: 6em;
+   border: 2px solid;
+   position: relative;
+   left: 6.5em;
+   width: max-content;
+   padding-right: 5em;
+   padding-left: 5em;
+  padding-bottom: 5em ;
+  margin-bottom: 7em;
+}
+.billhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.billhead h1{
+    margin-left: 10em;
+}
+.billhead .user-det{
+    margin-left: 38em; 
+}
+.billhead .customer-det{
+    margin-bottom: 20px;
+}
+.line{
+    margin-top: 20px;
+    width: 50em;
+}
+.billtable{
+    position: relative;
+    top: 2em;
+    border-collapse: collapse;
+    margin-bottom: 11em;
+}
+.billtable th{
+    width: 10em;
+    height: 3em;
+    border:1px solid;
+}
+.billtable tr{
+    height: 2em;
+}
+.billtable td{
+   text-align: center;
+   border:1px solid;
+   
+}
+.totalamount .tamount,.pay{
+    float: right;
+    clear: both;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: -13%;
+    position: relative;
+    right:15.5em;
+}
+.totalamount .delivery{
+    position: relative;
+    display: flex;
+    left: 28.4em;
+    bottom:4.5em;
+}
+.totalamount .pay{
+    top:4em;
+}
+.totalamount .delivery input{
+       text-align: right;
+       margin-left: 10px;
+       width: 11.5em;
+       border: none;
+       border-radius: 5px;
+}
+.totalamount .delivery input:focus,.totalamount .delivery input:hover{
+    background-color: rgba(0, 0, 0, 0.336);
+    outline: none;
+    padding-right: 5px;
+}
+
+.download:hover,.sendbill:hover{
+    background-color: black;
+    color: red;
+    transition: 300ms;
+}
+.pdfbuttons{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom:20em;
+    left:80em;
+    max-width:max-content ;
+}
+.pdfbuttons button{
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    border:none;
+    background-color:red;
+    margin-bottom: 2em;
+}
+.billtable input{
+    width:8em;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+ 
+}
+#date{
+    width: 10em;
+}
+.addrow,.deleterow{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+    color: black;
+}
+.addrow:hover,.deleterow:hover{
+  color: red;
+}

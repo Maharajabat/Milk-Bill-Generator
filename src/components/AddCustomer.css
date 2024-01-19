@@ -1,0 +1,114 @@
+.AddCustomer{
+    width: max-content;
+}
+.AddCustomer-container{
+  position: relative;
+  top:10em;
+  left: 9.3em;
+  width: max-content;
+}
+.head{
+    position: relative;
+    top:4em;
+    width: max-content;
+    left: 6em;
+}
+ .name,.no,.email{
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-right: 180px;
+    border-radius: 15px;
+    border:none;
+    background-color: rgba(8, 7, 7, 0.077);
+} 
+.morning-qty,.evening-qty{
+    margin-bottom: 20px;
+    width:5em;
+    margin-left: -37%;
+    border-radius: 15px;
+    border:none;
+    background-color: rgba(8, 7, 7, 0.077);
+}
+.morning-qty,.morn-capacity{
+    margin-top: 2em;
+    padding: 10px;
+  position: relative;
+  left:12.5em;
+}
+.evening-qty,.even-capacity{
+    position: relative;
+    left:22em;
+    padding: 10px;
+}
+.morninglabel{
+    position: relative;
+    top:-2.5em;
+    left:4em;
+}
+.eveninglabel{
+    position: relative;
+    top:-2.5em;
+    left:11.6em;
+}
+.fromdate{
+    position: relative;
+    right:3.5em
+}
+.date{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    right: 3.6em;
+    border:none;
+    background-color: rgba(8, 7, 7, 0.077);
+}
+.price{
+    padding: 20px;
+    border-radius: 15px;
+    width: 5em;
+    margin-right: 3px;
+    border:none;
+    background-color: rgba(8, 7, 7, 0.077);
+}
+
+.AddCustomer-container input::placeholder{
+    color: rgba(4, 4, 4, 0.571);
+    text-decoration: dotted;
+}
+.customer-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.AddCustomer-container button{
+    font-weight: bold;
+    font-size: 15px;
+    border-color: transparent;
+    background-color: red;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 1%;
+    cursor: pointer;
+}
+.AddCustomer-container button:hover{
+ transform: scale(1.15);
+ transition: 250ms;
+ background-color: black;
+ color: red;
+}
+.addnotify {
+    display: flex;
+    color: green;
+}
+
+.morn-capacity,.even-capacity{
+    border-radius: 5px;
+    border:none;
+    width: 5.8em;
+    margin-left: 10px;
+    padding: 2px;
+    background-color: rgba(8, 7, 7, 0.077); 
+}

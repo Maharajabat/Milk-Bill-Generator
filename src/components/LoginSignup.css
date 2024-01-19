@@ -1,0 +1,61 @@
+.Entry{
+    width: 100%;
+    height: 100vh;
+    background-image: url('batmangif.gif');
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    z-index: 163;
+    align-items: center;
+    display: flex;
+    position: relative;
+    overflow-y: hidden;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:19em;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:49.5em;
+}
+.login-form input,.signup-form input{
+    padding: 13px;
+    width:17em;
+    margin-bottom: 20px;
+    color: red;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.61);
+
+}
+.login-form input:focus,.signup-form input:focus{
+    outline: none;
+    box-shadow: 0 0px 10px 5px  red;
+}
+
+.login-form button,.signup-form button{
+    font-size: 16px;
+    width: 5em;
+    padding: 5px;
+    margin-left: 6em;
+    border-radius: 6px;
+    cursor: pointer;
+    border:none;
+    background-color: red;
+}
+
+.login-form button:hover,.signup-form button:hover{
+    background-color: black;
+    color: red;
+    box-shadow: 0 0px 10px 5px  red;
+    transition: 400ms;
+}
+.login-form button:focus,.signup-form button:focus{
+    transform: scale(0.70);
+}

@@ -1,0 +1,39 @@
+.cushead{
+    font-size: 35px;
+}
+.customers-list{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10em;
+    margin-left: 10%;
+    width: max-content;
+}
+.customers-list li{
+    display: flex;
+    align-items: center;
+    word-spacing: 26em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 40px;
+    background-color: rgba(8, 7, 7, 0.077);
+    border-radius: 10px;
+}
+.customers-list li:hover{
+    background-color: rgba(0, 0, 0, 0.31);
+    transition: 300ms;
+    cursor: pointer;
+}
+.editcustomer{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    position: relative;
+    bottom: 2.90em;
+    left: 46.30em;
+}
+.editcustomer:hover{
+    transform: scale(1.25);
+    transition: 200ms;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.generated-bills{
+    position: relative;
+    top: 10em;
+    left: 10em;
+    margin-bottom: 12em;
+    max-width: max-content;
+}
+.generated-bills li{
+    display: flex;
+    word-spacing: 8em;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 40px;
+    background-color: rgba(8, 7, 7, 0.077);
+    border-radius: 10px;
+    width: 80em;
+    justify-content: center;
+}
+.generated-bills li:hover{
+    background-color: rgba(0, 0, 0, 0.31);
+    transition: 300ms;
+    cursor: pointer;
+}

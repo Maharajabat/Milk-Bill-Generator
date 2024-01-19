@@ -1,0 +1,27 @@
+.Addcus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+   left: 45em;
+   top:20em;
+   
+    width:max-content;
+    z-index: 1000;
+    width: max-content;
+}
+.Addcus p{
+    padding-left: 20px;
+}
+.Addcus button{
+    background: transparent;
+    border-color: transparent;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+.Addcus button:hover{
+    color:red;
+    transform: scale(1.5);
+    transition: 500ms;
+}

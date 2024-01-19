@@ -1,0 +1,106 @@
+
+.homehead{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    top:0em;
+    color:red;
+    padding: 15px;
+    width: 100%;
+    align-items: center;
+    z-index: 5;
+    
+}
+.homehead h2{
+    position: fixed;
+    right: 20px;
+    font-weight: 700;
+}
+.homehead h1,h2{
+    cursor: pointer;
+}
+.search{
+    padding:10px;
+    border-radius: 10px;
+    height: 15px;
+    border: none;
+    background-color: red;
+    padding-right: 50px;
+}
+.search:focus{
+    outline: none;
+}
+.search::placeholder{
+    color: black;
+}
+.searchbtn{
+    display: flex;
+    position:fixed;
+    z-index: 7;
+    left: 43em;
+    top: 1.2em;
+}
+.searchbtn button {
+    font-size: 25px;
+    position: relative;
+    left: 0.5em;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6em;
+    border-radius: 20px;
+    color: rgb(212, 3, 3);
+    cursor: pointer;
+}
+.searchbtn button:hover{
+    transform: scale(1.15);
+    transition: 300ms;
+}
+.pagebutton{
+    background-color: black;
+    width: 4.5em;
+    top:4.3em;
+    padding-top: 10px;
+    height: 100%;
+    z-index: 5;
+    position: fixed;
+}
+.pagebutton button{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width:max-content;
+    padding: 15px;
+    font-size: 35px; 
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color:red;
+    margin-bottom: 20px;
+}
+.pagebutton .profile{
+    color: red;
+    margin-top: 8em;
+    
+}
+
+.pagebutton button:hover{
+    background-color: red;
+    color: black;
+    transition: 500ms;
+    width:2em;
+}
+.logout{
+   position: relative;
+   right: 4em;
+   top:4em;
+   font-size: 15px;
+   width: 5em;
+   border-radius: 5px;
+   background-color: red;
+   box-shadow: 0 3px 10px 0 black;
+   cursor: pointer;
+   border: none;
+}
+
+

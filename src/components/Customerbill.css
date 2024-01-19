@@ -1,0 +1,131 @@
+.customerbill-container{
+     position: relative;
+     top:10em;
+     left: 10em;
+     width: max-content;
+     overflow-y: auto;
+}
+
+.bill-list li{
+    display: flex;
+    word-spacing: 10em;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 40px;
+    background-color: rgba(8, 7, 7, 0.077);
+    border-radius: 10px;
+    width: 80em;
+    justify-content: center;
+}
+.currentbill{
+    display: flex;
+    word-spacing: 10em;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 40px;
+    background-color: rgba(8, 7, 7, 0.077);
+    border-radius: 10px;
+    width: 60em;
+    justify-content: center;
+}
+.customer-bills{
+    margin-top: 2em;
+}
+.bill-list li:hover,.currentbill:hover{
+    background-color:  rgba(0, 0, 0, 0.31);
+    transition: 300ms;
+    cursor: pointer;
+}
+.morning,.evening{
+    width: 60px;
+    margin-right: 20px;
+    border: none;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.135);
+    box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, 0.455),0 2px 2px 2px rgba(0, 0, 0, 0.375);
+}
+.morning,.capacity-morning{
+    position: relative;
+    top:-9em;
+}
+.evening,.capacity-evening{
+    position: relative;
+    top:-3em;
+}
+.morning::placeholder,.evening::placeholder{
+    padding-left: 2px;
+}
+.morning,.capacity-morning{
+    position: relative;
+    left:68em;
+    bottom:7.7em;
+    padding: 10px;
+}
+.evening,.capacity-evening{
+    position: relative;
+    left:49em;
+    top:-2.5em;
+    padding: 10px;
+}
+select{
+    background-color: rgba(0, 0, 0, 0.135);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 1.5px 0 rgba(0, 0, 0, 0.455),0 2px 2px 2px rgba(0, 0, 0, 0.375);
+}
+.qtyadd-morn{
+    position: relative;
+    left:38em;
+    top:-6.6em;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-color: transparent;
+    background-color: red;
+    color: black;
+    width: 3em;
+    border-radius: 5px;   
+    height: 1.5em;
+}
+.qtyadd-even{
+    position: relative;
+    left:35em;
+    top:-1.8em;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-color: transparent;
+    background-color: red;
+    color: black;
+    width: 3em;
+    border-radius: 5px;   
+    height: 1.5em;
+}
+.qtylabel{
+   position: relative;
+   left: 69.5em;
+   bottom: 13em;
+}
+.qtyadd-morn:hover,.qtyadd-even:hover{
+    color: red;
+    background-color: black;
+    transition: 300ms;
+    cursor: pointer;
+}
+.qty-container{
+    position: relative;
+    top: -1.5em;
+}
+.morn-label{
+    position: relative;
+    left: 60em;
+    top: -10em;
+}
+.even-label{
+    position: relative;
+    left: 44em;
+    top: -4.5em;
+}
